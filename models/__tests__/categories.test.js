@@ -44,4 +44,8 @@ describe('Categories Model', () => {
       });
   });
 
+  it('can delete() a category', () => {
+    
+  })
+
 });
