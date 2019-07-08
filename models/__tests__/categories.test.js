@@ -45,7 +45,19 @@ describe('Categories Model', () => {
   });
 
   it('can delete() a category', () => {
-    
+    let obj = {name: 'Test Category'};
+    return categories.create(obj)
+      .then(record => {
+
+      })
+  })
+
+  it('can update() a category', () => {
+    let obj = {name: 'Test Category'};
+    return categories.create(obj)
+      .then(record => {
+        
+      })
   })
 
 });
