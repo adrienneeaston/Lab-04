@@ -1,20 +1,32 @@
 {
-  "name": "starter-code",
+  "name": "data-modeling",
   "version": "1.0.0",
-  "description": "",
+  "description": "* Create a new git repository for this lab\r * Copy the starter-code contents into it\r * You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files",
   "main": "players-schema.js",
   "scripts": {
-    "test": "jest --verbose",
-    "test-watch": "jest --watchAll --verbose"
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Adrienne Easton",
+  "license": "MIT",
   "dependencies": {
-    "jest": "^24.8.0",
     "uuid": "^3.3.2"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrienneeaston/Lab-04.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrienneeaston/Lab-04/issues"
+  },
+  "homepage": "https://github.com/adrienneeaston/Lab-04#readme"
 }

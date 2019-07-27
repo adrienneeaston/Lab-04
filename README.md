@@ -1,5 +1,8 @@
 # LAB: Data Modeling
 
+https://github.com/adrienneeaston/Lab-04/pull/1
+[![Build Status](https://travis-ci.com/adrienneeaston/Lab-04.svg?branch=master)](https://travis-ci.com/adrienneeaston/Lab-04)
+
 ## Before you begin
 * Create a new git repository for this lab
 * Copy the starter-code contents into it
